@@ -22,7 +22,7 @@
 
 body{
     background-image: url('./Assets/4035033-ai.svg');
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(2px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,10 +30,11 @@ body{
     font-family:'Open Sans';
     cursor: default;
     overflow-x:hidden ;
+transititon:all 0.14s ease-in;
 }
 body:hover{
-    color-scheme:Dark Light;
-    filter:invert(100%)
+backdrop-filter:blur(15px);
+   
 }    
 header{
     position: sticky;
