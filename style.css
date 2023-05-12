@@ -22,7 +22,7 @@
 
 body{
     background-image: url('./Assets/4035033-ai.svg');
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(7px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
