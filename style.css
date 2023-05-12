@@ -30,12 +30,7 @@ body{
     font-family:'Open Sans';
     cursor: default;
     overflow-x:hidden ;
-transititon:all 0.14s ease-in;
-}
-body:hover{
-backdrop-filter:blur(15px);
-   
-}    
+}   
 header{
     position: sticky;
     top:0px;
