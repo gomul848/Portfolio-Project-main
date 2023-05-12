@@ -31,6 +31,10 @@ body{
     cursor: default;
     overflow-x:hidden ;
 }
+body:hover{
+    color-scheme:Dark Light;
+    filter:invert(100%)
+}    
 header{
     position: sticky;
     top:0px;
